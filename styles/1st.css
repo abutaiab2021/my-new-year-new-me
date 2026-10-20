@@ -194,3 +194,67 @@ ul li i{
     color: white;
     margin-bottom: 30px;
 }
+
+/* footer  start*/
+footer{
+    background-color: black;
+    margin-top: 150px;
+    height: 600px;
+}
+
+#footer-section{
+    max-width: 1140px;
+    width: 71%;
+    margin: 150px auto;
+    padding: 150px 0;
+}
+#footer-section .footer-container{
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-container .content{
+    max-width: 500px;
+    /* width: 200px; */
+    /* margin-top: 10px; */
+}
+
+.content h1{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.content p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.social-container img{
+    margin-right: 20px;
+}
+
+.form{
+    font-size: 16px;
+    font-weight: bold;
+    /* color: rgb(107, 216, 216); */
+}
+
+.form h1{
+    margin-bottom: 20px;
+    color: white;
+}
+
+.form input[type="email"]{
+    padding: 20px 40px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
